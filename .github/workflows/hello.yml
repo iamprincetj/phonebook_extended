@@ -2,11 +2,13 @@ name: Hello pipeline
 
 on:
   push:
-    branches: [main]
+    branches:
+      - main
 
 jobs:
   Simple pipeline for testing:
     runs-on: ubuntu-20.04
     steps:
       - name: hello world
-        run: echo "Hello, world!"
+        run: |
+          echo "Hello, world!"
