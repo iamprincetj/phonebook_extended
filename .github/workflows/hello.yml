@@ -1,4 +1,4 @@
-name: Hello pipeline
+name: Hello World!
 
 on:
   push:
@@ -6,9 +6,13 @@ on:
       - main
 
 jobs:
-  Simple pipeline for testing:
+  hello_world_job:
     runs-on: ubuntu-20.04
     steps:
-      - name: hello world
+      - name: Say hello
         run: |
-          echo "Hello, world!"
+          echo "Hello World"
+      - name: Now it is
+        run: date
+      - name: Directory content
+        run: ls -l
