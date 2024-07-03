@@ -19,3 +19,5 @@ jobs:
         run: npm run build
       - name: lint
         run: npm run lint
+      - name: Trigger deployment
+        run: curl https://api.vercel.com/v1/integrations/deploy/${{ secrets.VERCEL_SERVICE_ID }}/${{ secrets.VERCEL_KEY }}
