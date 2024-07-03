@@ -4,18 +4,18 @@
 
 # Clone the repository
 
-    `git clone https://github.com/iamprincetj/phonebook_extended.git`
+    git clone https://github.com/iamprincetj/phonebook_extended.git
 
 # install dependacies
 
-    `npm install`
+    npm install
 
 # Build the project
 
-    `npm run build`
+    npm run build
 
 # Start the project
 
-    `npm run start`
+    npm run start
 
 [visit-site](https://just-phonebook.onrender.com/)

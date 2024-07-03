@@ -4,10 +4,11 @@
   "description": "fullstack phonebook exercise",
   "main": "index.js",
   "scripts": {
+    "install": "cd phonebook && npm install",
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": " NODE_ENV=production node index.js",
     "dev": "NODE_ENV=development nodemon index.js",
-    "build": "cd phonebook && npm install && npm run build",
+    "build": "cd phonebook && npm run build",
     "lint": "cd phonebook && npm run lint"
   },
   "repository": {
