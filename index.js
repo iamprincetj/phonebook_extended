@@ -114,6 +114,10 @@ app.put('/api/persons/:id', (request, response, next) => {
     })
 })
 
+app.get('/health', (request, response) => {
+  response.send('ok')
+})
+
 const errorHandler = (error, request, response, next) => {
   console.error(error.message)
 
