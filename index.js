@@ -115,8 +115,6 @@ app.put('/api/persons/:id', (request, response, next) => {
 })
 
 app.get('/health', (request, response) => {
-  // implementing health check failed
-  if (true) throw 'error...'
   response.send('ok')
 })
 
