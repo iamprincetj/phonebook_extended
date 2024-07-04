@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "install": "cd phonebook && npm install",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": " NODE_ENV=production node index.js",
     "dev": "NODE_ENV=development nodemon index.js",
     "build": "cd phonebook && npm run build",
-    "lint": "cd phonebook && npm run lint"
+    "lint": "cd phonebook && npm run lint",
+    "test": "playwright test"
   },
   "repository": {
     "type": "git",
@@ -30,6 +30,8 @@
     "morgan": "^1.10.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.45.1",
+    "@types/node": "^20.14.9",
     "eslint": "^8.56.0",
     "nodemon": "^3.0.3"
   }
