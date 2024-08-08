@@ -18,4 +18,4 @@
 
     npm run start
 
-[VISIT-SITE](https://just-phonebook.onrender.com/)
+[Visit Site](https://just-phonebook.onrender.com/)
